@@ -1,0 +1,34 @@
+referenceRobotFile=custom.robot.txt
+
+simulatorConfFile=conf.sim.txt
+evolutionMode = brain
+numGenerations = 200
+mu = 30
+lambda = 30
+replacement = plus
+selection = deterministic-tournament
+tournamentSize = 3
+
+#Commonly used brain parameters
+pBrainMutate = 0.3
+pBrainCrossover = 0.7
+pAddHiddenNeuron = 0
+pOscillatorNeuron = 0
+
+#Commonly used body variation parameters
+numInitialParts = 2:10
+addBodyPart = 
+maxBodyParts = 20
+socket=127.0.0.1:49152
+brainBounds=-3:3
+brainSigma=.7
+
+#Other parameters
+periodSigma=0.2
+periodBounds=0.2:2.0
+phaseOffsetSigma=0.4
+phaseOffsetBounds=-1:1
+amplitudeSigma=0.2
+amplitudeBounds=0:1
+evolutionaryAlgorithm=HyperNEAT
+neatParamsFile=neatParams.txt

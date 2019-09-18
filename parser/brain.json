@@ -1,0 +1,686 @@
+{
+  "neuron": [
+   {
+    "id": "Core-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-1",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 1,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-2",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 2,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-3",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 3,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-4",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 4,
+    "gain": 1.0
+   },
+   {
+    "id": "Core-5",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Core",
+    "ioId": 5,
+    "gain": 1.0
+   },
+   {
+    "id": "Hip3-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -2.8390438556671143,
+    "bodyPartId": "Hip3",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "Hip4-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": 0.0084002753719687462,
+    "bodyPartId": "Hip4",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "HipHHinge1-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -2.8259406089782715,
+    "bodyPartId": "HipHHinge1",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "HipHHinge2-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -2.9950835704803467,
+    "bodyPartId": "HipHHinge2",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "HipHinge1-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": 1.7280607223510742,
+    "bodyPartId": "HipHinge1",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "HipHinge2-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -2.9999792575836182,
+    "bodyPartId": "HipHinge2",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "HipHinge3-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -2.9986422061920166,
+    "bodyPartId": "HipHinge3",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "HipHinge4-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": 2.9764165878295898,
+    "bodyPartId": "HipHinge4",
+    "ioId": 0,
+    "gain": 1.0
+   }
+  ],
+  "connection": [
+   {
+    "src": "Core-0",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-1",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-2",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-3",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-4",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Core-5",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip3-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "Hip4-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "Hip3-0",
+    "weight": 2.8709514141082764
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "Hip4-0",
+    "weight": 2.9999992847442627
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "HipHHinge1-0",
+    "weight": -2.7092976570129395
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "HipHHinge2-0",
+    "weight": -2.9999980926513672
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "HipHinge2-0",
+    "weight": -2.9999978542327881
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "HipHinge3-0",
+    "weight": 2.8955461978912354
+   },
+   {
+    "src": "HipHHinge1-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "Hip3-0",
+    "weight": 2.9567720890045166
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "Hip4-0",
+    "weight": 2.9999997615814209
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "HipHHinge1-0",
+    "weight": -2.1964316368103027
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "HipHHinge2-0",
+    "weight": -2.9999942779541016
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "HipHinge2-0",
+    "weight": -2.9999935626983643
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "HipHinge3-0",
+    "weight": 2.9651236534118652
+   },
+   {
+    "src": "HipHHinge2-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "Hip3-0",
+    "weight": 2.415524959564209
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "Hip4-0",
+    "weight": 1.9901747703552246
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "HipHHinge1-0",
+    "weight": -2.9999997615814209
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "HipHHinge2-0",
+    "weight": -2.9999995231628418
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "HipHinge2-0",
+    "weight": -2.9999995231628418
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "HipHinge3-0",
+    "weight": 2.5435423851013184
+   },
+   {
+    "src": "HipHinge1-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "Hip3-0",
+    "weight": 2.9911532402038574
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "Hip4-0",
+    "weight": 2.9834957122802734
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "HipHHinge1-0",
+    "weight": -2.9999854564666748
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "HipHHinge2-0",
+    "weight": -2.9999716281890869
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "HipHinge2-0",
+    "weight": -2.9999666213989258
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "HipHinge3-0",
+    "weight": 2.9932491779327393
+   },
+   {
+    "src": "HipHinge2-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge3-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "Hip3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "Hip4-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "HipHHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "HipHHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "HipHinge1-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "HipHinge2-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "HipHinge3-0",
+    "weight": 0.0
+   },
+   {
+    "src": "HipHinge4-0",
+    "dest": "HipHinge4-0",
+    "weight": 0.0
+   }
+  ]
+}

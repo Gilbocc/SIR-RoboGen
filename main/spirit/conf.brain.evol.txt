@@ -1,0 +1,27 @@
+# Files
+simulatorConfFile=conf.sim.txt
+referenceRobotFile=custom.robot.txt
+
+# Evolution Parameters
+numGenerations=100
+mu=20
+lambda=20
+selection=deterministic-tournament
+replacement=plus
+tournamentSize=2
+
+# Brain Evolution
+evolutionMode=brain
+pBrainMutate=0.3
+brainSigma=0.7
+brainBounds=-3:3
+pBrainCrossover=0.6
+periodSigma=0.2
+periodBounds=0.2:2.0
+phaseOffsetSigma=0.4
+phaseOffsetBounds=-1:1
+amplitudeSigma=0.2
+amplitudeBounds=0:1
+
+evolutionaryAlgorithm=HyperNEAT
+neatParamsFile=neatParams.txt
