@@ -1,17 +1,17 @@
 referenceRobotFile=custom.robot.txt
-simulatorConfFile=conf.sim.txt
 
+simulatorConfFile=conf.sim.txt
 evolutionMode = brain
 numGenerations = 100
 mu = 30
 lambda = 30
 replacement = plus
 selection = deterministic-tournament
-tournamentSize = 2
+tournamentSize = 30
 
 #Commonly used brain parameters
-pBrainMutate = 0.3
-pBrainCrossover = 0.7
+pBrainMutate = 1
+pBrainCrossover = 0
 pAddHiddenNeuron = 0
 pOscillatorNeuron = 0
 
@@ -19,6 +19,7 @@ pOscillatorNeuron = 0
 numInitialParts = 2:10
 addBodyPart = All
 maxBodyParts = 20
+socket=127.0.0.1:49152
 brainBounds=-3:3
 brainSigma=.7
 

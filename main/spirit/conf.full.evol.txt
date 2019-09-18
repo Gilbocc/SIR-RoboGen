@@ -1,10 +1,16 @@
+# Files
 simulatorConfFile=conf.sim.txt
-mu=20
-lambda=20
+referenceRobotFile=custom.robot.txt
+
+# Evolution Parameters
+numGenerations=100
+mu=30
+lambda=30
 selection=deterministic-tournament
 replacement=plus
 tournamentSize=2
-numGenerations=100
+
+# Full Evolution
 evolutionMode=full
 pBrainMutate=0.3
 brainSigma=0.7
@@ -17,3 +23,5 @@ pSubtreeDuplicate=0.1
 pSubtreeSwap=0.1
 pNodeRemove=0.1
 pParameterModify=0.1
+
+evolutionaryAlgorithm=Basic
