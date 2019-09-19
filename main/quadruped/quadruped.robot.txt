@@ -1,0 +1,33 @@
+0 CoreComponent Core 0
+	0 FixedBrick Body1 1 
+		0 FixedBrick Body2 1 
+			0 FixedBrick Body3 1
+				0 FixedBrick Body4 1				
+					0 FixedBrick Body5 1 
+						1 ActiveHinge BackRightHip 0 
+							0 FixedBrick BackRightUpperLeg 1
+								0 ActiveHinge BackRightKnee 0 
+									0 FixedBrick BackRightLowerLeg 0
+						2 ActiveHinge BackLeftHip 0
+							0 FixedBrick BackLeftUpperLeg 1
+								0 ActiveHinge BackLeftKnee 0 
+									0 FixedBrick BackLeftLowerLeg 0
+	2 ActiveHinge FrontRightHip 0 
+		0 FixedBrick FrontRightUpperLeg 1
+			0 ActiveHinge FrontRightKnee 0 
+				0 FixedBrick FrontRightLowerLeg 0
+	3 ActiveHinge FrontLeftHip 0
+		0 FixedBrick FrontLeftUpperLeg 1
+			0 ActiveHinge FrontLeftKnee 0 
+				0 FixedBrick FrontLeftLowerLeg 0
+
+
+
+FrontLeftHip 0 Oscillator 1 0 1
+FrontRightHip 0 Oscillator -1 0 1
+FrontLeftKnee 0 Oscillator 1 -0.2 1
+FrontRightKnee 0 Oscillator 1 -0.2 1
+BackLeftHip 0 Oscillator -1 0 1
+BackRightHip 0 Oscillator 1 0 1
+BackLeftKnee 0 Oscillator 1 -0.2 1
+BackRightKnee 0 Oscillator 1 -0.2 1

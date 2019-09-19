@@ -1,0 +1,27 @@
+referenceRobotFile=quadruped.robot.txt
+
+simulatorConfFile=conf.sim.txt
+evolutionMode = brain
+numGenerations = 1000
+mu = 25
+lambda = 25
+replacement = plus
+selection = deterministic-tournament
+tournamentSize = 4
+
+#Commonly used brain parameters
+pBrainMutate = 0
+pBrainCrossover = 0.6
+pAddHiddenNeuron = 0
+pOscillatorNeuron = 0.05
+
+#Commonly used body variation parameters
+numInitialParts = 2:10
+addBodyPart = All
+maxBodyParts = 20
+socket=127.0.0.1:49152
+brainBounds=-3:3
+brainSigma=.7
+
+#Other parameters
+evolutionaryAlgorithm=HyperNEAT

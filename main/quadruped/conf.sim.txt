@@ -1,0 +1,18 @@
+#Fitness Function
+scenario=racing
+
+#Time Parameters 
+simulationTime=15.0
+timeStep=0.04
+actuationFrequency=25
+
+#Terrain Parameters
+terrainType=flat
+terrainLength=10
+terrainWidth=10
+terrainFriction=1.0
+
+#Other Parameters
+sensorNoiseLevel=0.0
+motorNoiseLevel=0.0
+capAcceleration=false
