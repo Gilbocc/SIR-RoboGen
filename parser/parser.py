@@ -1,12 +1,12 @@
 import json
 
-input_file = "GenerationBest-200.json"
+input_file = "robot.json"
 output_file = "output.json"
 
-robot = json.load(open(input_file))
+brain = json.load(open(input_file))['brain']
 
-neurons = robot['brain']["neuron"]
-connections = robot['brain']["connection"]
+neurons = brain["neuron"]
+connections = brain["connection"]
 
 with open(output_file, "a") as outfile:
 
