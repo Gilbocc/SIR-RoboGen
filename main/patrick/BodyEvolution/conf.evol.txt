@@ -1,0 +1,33 @@
+referenceRobotFile=patrick.robot.txt
+
+simulatorConfFile=conf.sim.txt
+evolutionMode = full
+numGenerations = 500
+mu = 30
+lambda = 30
+replacement = plus
+selection = deterministic-tournament
+tournamentSize = 2
+
+#Commonly used brain parameters
+pBrainMutate = .4
+pBrainCrossover = 0
+pAddHiddenNeuron = 0.05
+pOscillatorNeuron = 0
+
+#Commonly used body variation parameters
+numInitialParts = 2:10
+addBodyPart = All
+maxBodyParts = 30
+socket=127.0.0.1:49152
+brainBounds=-3:3
+brainSigma=.7
+
+#Other parameters
+pNodeInsert=0.1
+pSubtreeRemove=0.1
+pSubtreeDuplicate=0.1
+pSubtreeSwap=0.1
+pNodeRemove=0.1
+pParameterModify=0.1
+evolutionaryAlgorithm=Basic

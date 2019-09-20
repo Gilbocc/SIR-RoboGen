@@ -1,0 +1,147 @@
+0 CoreComponent Core 0
+	0 ActiveHinge Hip1 1 
+		0 FixedBrick UpperLeg1 1
+			0 ActiveHinge Knee1 0 
+				0 FixedBrick LowerLeg1 0 
+	1 ActiveHinge Hip2 3 
+		0 FixedBrick UpperLeg2 1
+			0 ActiveHinge Knee2 0 
+				0 FixedBrick LowerLeg2 0 
+	2 ActiveHinge Hip3 0 
+		0 FixedBrick UpperLeg3 1
+			0 ActiveHinge Knee3 0 
+				0 FixedBrick LowerLeg3 0 
+	3 ActiveHinge Hip4 2 
+		0 FixedBrick UpperLeg4 1
+			0 ActiveHinge Knee4 0 
+				0 FixedBrick LowerLeg4 0
+
+
+Core 0 Hip1 0 0.0
+Core 0 Hip2 0 0.0
+Core 0 Hip3 0 0.0
+Core 0 Hip4 0 0.0
+Core 0 Knee1 0 0.0
+Core 0 Knee2 0 0.769628047943
+Core 0 Knee3 0 0.0
+Core 0 Knee4 0 0.0
+Core 1 Hip1 0 0.0
+Core 1 Hip2 0 0.0
+Core 1 Hip3 0 0.0
+Core 1 Hip4 0 0.0
+Core 1 Knee1 0 0.0
+Core 1 Knee2 0 1.62121987343
+Core 1 Knee3 0 0.0
+Core 1 Knee4 0 0.0
+Core 2 Hip1 0 0.0
+Core 2 Hip2 0 0.0
+Core 2 Hip3 0 0.0
+Core 2 Hip4 0 0.0
+Core 2 Knee1 0 0.0
+Core 2 Knee2 0 2.21534132957
+Core 2 Knee3 0 0.0
+Core 2 Knee4 0 0.0
+Core 3 Hip1 0 0.0
+Core 3 Hip2 0 0.0
+Core 3 Hip3 0 0.0
+Core 3 Hip4 0 0.0
+Core 3 Knee1 0 0.0
+Core 3 Knee2 0 2.57689332962
+Core 3 Knee3 0 0.0
+Core 3 Knee4 0 0.0
+Core 4 Hip1 0 0.0
+Core 4 Hip2 0 0.0
+Core 4 Hip3 0 0.0
+Core 4 Hip4 0 0.0
+Core 4 Knee1 0 0.0
+Core 4 Knee2 0 2.77891302109
+Core 4 Knee3 0 0.0
+Core 4 Knee4 0 0.0
+Core 5 Hip1 0 0.0
+Core 5 Hip2 0 0.0
+Core 5 Hip3 0 0.0
+Core 5 Hip4 0 0.0
+Core 5 Knee1 0 0.0
+Core 5 Knee2 0 2.88643884659
+Core 5 Knee3 0 0.0
+Core 5 Knee4 0 0.0
+Hip1 0 Hip1 0 0.0
+Hip1 0 Hip2 0 -0.227234601974
+Hip1 0 Hip3 0 -1.59607744217
+Hip1 0 Hip4 0 -1.51293158531
+Hip1 0 Knee1 0 0.0
+Hip1 0 Knee2 0 -0.0265582203865
+Hip1 0 Knee3 0 -1.7434977293
+Hip1 0 Knee4 0 -1.33741188049
+Hip2 0 Hip1 0 0.0
+Hip2 0 Hip2 0 0.0
+Hip2 0 Hip3 0 0.0
+Hip2 0 Hip4 0 0.0
+Hip2 0 Knee1 0 0.0
+Hip2 0 Knee2 0 1.46324193478
+Hip2 0 Knee3 0 0.0
+Hip2 0 Knee4 0 0.0
+Hip3 0 Hip1 0 0.0
+Hip3 0 Hip2 0 0.0
+Hip3 0 Hip3 0 0.0
+Hip3 0 Hip4 0 0.0
+Hip3 0 Knee1 0 0.0
+Hip3 0 Knee2 0 1.79660391808
+Hip3 0 Knee3 0 0.0
+Hip3 0 Knee4 0 0.0
+Hip4 0 Hip1 0 0.0
+Hip4 0 Hip2 0 -0.386592626572
+Hip4 0 Hip3 0 -1.34747540951
+Hip4 0 Hip4 0 -1.25481712818
+Hip4 0 Knee1 0 0.0
+Hip4 0 Knee2 0 -0.500041484833
+Hip4 0 Knee3 0 -1.51384115219
+Hip4 0 Knee4 0 -1.06191551685
+Knee1 0 Hip1 0 -2.95095467567
+Knee1 0 Hip2 0 -2.50350785255
+Knee1 0 Hip3 0 -2.88156414032
+Knee1 0 Hip4 0 -2.87257575989
+Knee1 0 Knee1 0 -2.78613257408
+Knee1 0 Knee2 0 -2.3563606739
+Knee1 0 Knee3 0 -2.89660644531
+Knee1 0 Knee4 0 -2.85228300095
+Knee2 0 Hip1 0 0.0
+Knee2 0 Hip2 0 0.0
+Knee2 0 Hip3 0 0.0
+Knee2 0 Hip4 0 0.0
+Knee2 0 Knee1 0 0.0
+Knee2 0 Knee2 0 0.0
+Knee2 0 Knee3 0 0.0
+Knee2 0 Knee4 0 0.0
+Knee3 0 Hip1 0 0.0
+Knee3 0 Hip2 0 0.0
+Knee3 0 Hip3 0 0.0
+Knee3 0 Hip4 0 0.0
+Knee3 0 Knee1 0 0.0
+Knee3 0 Knee2 0 0.0
+Knee3 0 Knee3 0 0.0
+Knee3 0 Knee4 0 0.0
+Knee4 0 Hip1 0 -2.95658612251
+Knee4 0 Hip2 0 -2.83894824982
+Knee4 0 Hip3 0 -2.9195754528
+Knee4 0 Hip4 0 -2.91330838203
+Knee4 0 Knee1 0 -2.95301365852
+Knee4 0 Knee2 0 -2.85063481331
+Knee4 0 Knee3 0 -2.93021273613
+Knee4 0 Knee4 0 -2.89939117432
+
+Hip1 0 -2.99124288559
+Hip2 0 2.80019140244
+Hip3 0 -1.64548003674
+Hip4 0 -2.25545239449
+Knee1 0 -2.99996948242
+Knee2 0 2.99928569794
+Knee3 0 0.267041653395
+Knee4 0 -2.7938873767
+
+
+
+
+
+
+
