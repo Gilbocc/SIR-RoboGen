@@ -2,18 +2,18 @@ referenceRobotFile=quadruped.robot.txt
 
 simulatorConfFile=conf.sim.txt
 evolutionMode = brain
-numGenerations = 1000
-mu = 25
-lambda = 25
+numGenerations = 300
+mu = 40
+lambda = 40
 replacement = plus
 selection = deterministic-tournament
-tournamentSize = 4
+tournamentSize = 2
 
 #Commonly used brain parameters
-pBrainMutate = 0
-pBrainCrossover = 0.6
-pAddHiddenNeuron = 0
-pOscillatorNeuron = 0.05
+pBrainMutate = 0.6
+pBrainCrossover = 0
+pAddHiddenNeuron = 0.05
+pOscillatorNeuron = 0
 
 #Commonly used body variation parameters
 numInitialParts = 2:10
