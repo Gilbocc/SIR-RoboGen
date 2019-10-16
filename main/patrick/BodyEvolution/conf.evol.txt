@@ -2,9 +2,9 @@ referenceRobotFile=patrick.robot.txt
 
 simulatorConfFile=conf.sim.txt
 evolutionMode = full
-numGenerations = 500
-mu = 30
-lambda = 30
+numGenerations = 200
+mu = 40
+lambda = 40
 replacement = plus
 selection = deterministic-tournament
 tournamentSize = 2

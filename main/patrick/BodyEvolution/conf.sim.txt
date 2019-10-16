@@ -3,7 +3,7 @@ scenario=racing.js
 
 #Time Parameters 
 simulationTime=20.0
-timeStep=0.004
+timeStep=0.04
 actuationFrequency=25
 
 #Terrain Parameters
@@ -13,6 +13,6 @@ terrainWidth=10
 terrainFriction=1.0
 
 #Other Parameters
-sensorNoiseLevel=0.01
-motorNoiseLevel=0.01
+sensorNoiseLevel=0.0
+motorNoiseLevel=0.0
 capAcceleration=false
