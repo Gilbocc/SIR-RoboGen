@@ -1,5 +1,6 @@
 # Esperimenti evoluzionistici con RoboGen
 In questo progetto sono stati realizzati 3 diversi robot per fare esperimenti di robotica evolutiva utilizzando RoboGen.
+La descrizione dettagliata di questo proegetto è fornita nella relazione "**Report-Progetto-Robogen**".
 
 All'interno della cartella "**examples**" è possibile trovare gli esempi riportati direttamente dal sito ufficiale di RoboGen.
 
@@ -12,7 +13,7 @@ Per ogni robot sono presenti le configurazioni che permettono di:
 
 Tutte le simulazioni sono già predisposte per essere avviate, in accordo con le istruzioni indicate dal sito ufficiale.
 
-Per ulteriori dettagli sui robot realizzati si rimanda alla relazione "**Report-Progetto-Robogen**".
+Per ulteriori dettagli sui robot realizzati si rimanda alla relazione.
 
 ## Parser
 La cartella "**parser**" invece fa riferimento al parser realizzato che permette di ottenere la configurazione del miglior individuo di una generazione interrotta, in modo tale da poter iniziare una nuova simulazione partendo da tale individuo.
