@@ -11,6 +11,7 @@ Per ogni robot sono presenti le configurazioni che permettono di:
 - avviare una simulazione a partire da un individuo di una simulazione precedente
 
 Tutte le simulazioni sono già predisposte per essere avviate, in accordo con le istruzioni indicate dal sito ufficiale.
+
 Per ulteriori dettagli sui robot realizzati si rimanda alla relazione "**Report-Progetto-Robogen**".
 
 ## Parser
